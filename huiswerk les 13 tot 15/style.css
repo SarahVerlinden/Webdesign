@@ -4,12 +4,18 @@ font-size: 14px;
 background-color: #FFCC99;
 margin: 0px;
 }
-header, div, footer{
-  padding: 5px;
+header {
+width: 60%;
+min-height: 50px;
+margin: 0 auto;
+padding: 5px;
 }
 div{
   background-color: white;
-  padding: 5% 15%;
+  width: 60%;
+  min-height: 450px;
+  margin: 0 auto;
+  padding: 5px;
 }
 ul a{
   color: white;
@@ -53,7 +59,11 @@ button:active{
 }
 footer{
   font-size: 10px;
+  width: 60%;
+  min-height: 50px;
+  margin: 0 auto;
   padding: 5px;
+  text-align: center;
 }
 table, h2, form, img, p{
   margin: 2% 15%;

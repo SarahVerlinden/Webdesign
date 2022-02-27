@@ -1,0 +1,13 @@
+.navbar{
+  background-color: #0B451F;
+}
+.container{
+  margin-bottom: 250px;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 200px;
+  background-color: #F0FDF5;
+}

@@ -1,0 +1,13 @@
+header{
+  background-color: #fce83f;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 150px;
+  background-color: #fdfbe8;
+}
+.container{
+  margin-bottom: 180px;
+}

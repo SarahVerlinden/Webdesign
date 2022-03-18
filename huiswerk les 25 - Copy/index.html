@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <title>huiswerk les 25</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stijl.css">
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="script.js">
+  </script>
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <h2>Kies uw opleiding</h2>
+  </header>
+  <div class="container">
+    <h2>Enkele vraagjes</h2>
+    <form>
+      Vul hier uw naam in:
+      <input type="text" id="naam"><br><br>
+      <input id="verder1" name="verder1" type="button" value="Klik hier om verder te gaan">
+    </form>
+      <br>
+    <p id="welkom">Welkom <p/>
+    <form id="opleidingen">
+      <p>Welke opleiding wilt u volgen? </p>
+      <input type="radio" name="opleiding" value="wiskunde">Wiskunde
+      <input type="radio" name="opleiding" value="chemie">Chemie
+      <input type="radio" name="opleiding" value="frans">Frans
+      <input type="radio" name="opleiding" value="geen" checked>Geen opleiding
+      <input id="verder2" name="verder2" type="button" value="Klik hier om verder te gaan">
+    </form>
+    <br>
+    <h2 id="info">Meer informatie</h2>
+    <div>
+      <p id="wi">Met onze opleiding wiskunde heeft u de basis van wiskunde in enkele jaren onder de knie. Ze kost bovendien niet veel.</p>
+      <p id="ch">Altijd al willen weten wat u eet. Volg dan deze opleiding chemie en kom alles te weten over de samenstelling van uw voedsel.</p>
+      <p id="fr">Onze opleiding Frans est très interessant. Essayez le maintenant!</p>
+      <p id="ge">U heeft geen opleiding gekozen. </p>
+      <a class="btn btn-primary" href="mailto:x@x.com" role="button">Contacteer ons</a>
+    </div>
+  </div>
+  <footer class="footer mt-5 text-center py-3">
+    <div class="container">
+      <span class="text-muted">© 2022 Sarah Verlinden</span>
+    </div>
+  </footer>
+</body>
+
+</html>
